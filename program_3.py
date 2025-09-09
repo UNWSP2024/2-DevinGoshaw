@@ -1,5 +1,5 @@
 #sales tax program
-#programmer: DEvin Goshaw
+#programmer: Devin Goshaw
 #Date: 9\8\2025
 
 def calculate_total_purchase():
@@ -14,9 +14,10 @@ def calculate_total_purchase():
     subtotal = item1 + item2 + item3 + item4 + item5
     print('subtotal is:' , subtotal)
     # assume the sales tax is 7 percent.
-    tax = subtotal * 0.07
+    tax = round(subtotal * 0.07,2)
     print('tax is:', tax)
     # the amount of sales tax, and the total.  
     total = subtotal + tax
     print('total is:' , total)
+    
 calculate_total_purchase()
