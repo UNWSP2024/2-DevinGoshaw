@@ -1,6 +1,6 @@
 # average age of friends program
 #Programmer: Devin Goshaw 
-#Date: 9\8\2025
+#Date: 9\9\2025
 
 
 def average_age():
@@ -16,5 +16,6 @@ def average_age():
     average = sum/5 
     # Print the results
     print("average age is" , average)
+
 # Line which calls the above function.
 average_age()
