@@ -1,6 +1,6 @@
 #sales tax program
 #programmer: Devin Goshaw
-#Date: 9\8\2025
+#Date: 9\9\2025
 
 def calculate_total_purchase():
     # A customer in a store is purchasing five items.  
@@ -19,5 +19,5 @@ def calculate_total_purchase():
     # the amount of sales tax, and the total.  
     total = subtotal + tax
     print('total is:' , total)
-    
+
 calculate_total_purchase()
