@@ -1,3 +1,7 @@
+# average age of friends program
+#Programmer: Devin Goshaw 
+#Date: 9\8\2025
+
 
 def average_age():
     # Get User Input

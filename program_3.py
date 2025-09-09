@@ -1,3 +1,7 @@
+#sales tax program
+#programmer: DEvin Goshaw
+#Date: 9\8\2025
+
 def calculate_total_purchase():
     # A customer in a store is purchasing five items.  
     # Write a program that asks for each item,
